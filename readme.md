@@ -19,3 +19,5 @@ describe("miles", function () {
 
 describe = test suite
 it = individual test
+
+. = passing

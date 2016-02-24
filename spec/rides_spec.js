@@ -2,6 +2,9 @@ var rides = require('../lib/rides');
 
 describe("rides", function (){
   it("testing test suite", function(){
-    expect(rides.height()).toEqual('hi')
+    var child = '';
+    var ride = '';
+
+    expect(rides.isTallEnough(child, ride)).toEqual('hi')
   })
 })

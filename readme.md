@@ -9,7 +9,13 @@ naming conventions:
 
 for this example, we're using 'miles'
 
-js file must export as an object
+projectName.js file must export as an object
+  i.e module.export = {}
+
+testing syntax:
+describe("miles", function () {
+  it ('is our master plan here', function (){
+    expect(miles.somefunction()).toEqual("funning stuff foreal")
 
 describe = test suite
 it = individual test
